@@ -1,0 +1,47 @@
+@media(max-width: 900px)
+{
+    h1,h2,h3 {
+        font-size: 20px !important;
+    }
+    h4 {
+        font-size: 18px !important;
+    }
+    h5 {
+        font-size: 16px !important;
+    }
+    h6 {
+        font-size: 14px !important;
+    }
+    p , a  {
+        font-size: 12px !important;
+    }
+    .general-section
+    {
+        padding: 50px 0px;
+    }
+    .applications .box:hover .image-box
+    {
+        left: calc(50% - 60px) !important;
+        top: -45px;
+    }
+    .applications .box ,
+    .applications .box .box-content
+    {
+        width: 100%;
+    }
+    .applications .box .box-content
+    {
+        padding-top: 60px;
+    }
+    .mobile-text-center
+    {
+        text-align: center;
+    }
+    .large-none
+    {
+        display: flex !important;
+    }
+    .mobile-none{
+        display: none;
+    }
+}
